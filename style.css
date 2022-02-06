@@ -1,0 +1,934 @@
+@font-face {
+    font-family: "thin";
+    src: url(./fonts/ProximaNova-ThinIt.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(./fonts/ProximaNova-Bold.ttf);
+}
+
+@font-face {
+    font-family: "black";
+    src: url(./fonts/ProximaNova-Black.ttf);
+}
+
+@font-face {
+    font-family: "light";
+    src: url(./fonts/ProximaNova-Light.ttf);
+}
+
+body {
+    font-family: "light";
+}
+
+.menu_qismi {
+    background: url("./img/munu_bg.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    padding-bottom: 165px;
+
+}
+
+#navbarSupportedContent {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+}
+
+.navbar {
+    margin-top: 37px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-collapse {
+    background: rgba(199, 229, 128, 0.5);
+
+    border-radius: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    display: flex;
+}
+
+.menu_tex {
+    font-family: "regular";
+    padding-right: 18px !important;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 2%;
+}
+
+.icon_va_tex {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.big_tex {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.kich_tex {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.texlar_otasi {
+    line-height: 20px;
+}
+
+.nav-item a {
+    color: white !important;
+    padding-left: 5% !important;
+}
+
+.tex_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.harif {
+    width: 568px;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    justify-content: space-between;
+}
+
+.punkut {
+    text-transform: uppercase;
+    font-family: "light";
+    font-size: 37px;
+    color: white;
+    text-align: center;
+    opacity: 0.5 !important;
+}
+
+.punkut_iki {
+    text-transform: uppercase;
+    font-family: "light";
+    color: white;
+    font-size: 37px;
+    opacity: 0.9 !important;
+}
+
+.bi_texx {
+    font-size: 195px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    line-height: 130px;
+    font-family: "black";
+    margin-top: 15px;
+    margin-bottom: 51px;
+}
+
+.vides_lar {
+    width: 100%;
+    height: 292px;
+}
+
+.vidio_va_img {
+    width: 570px !important;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 10px 40px 10px #661143;
+}
+
+.video_info {
+    font-size: 14px;
+    color: #ffcfdf;
+    transform: translateX(765px) translateY(-190px);
+    position: absolute;
+}
+
+.video_info::after {
+    content: "";
+    width: 118px;
+    height: 1px;
+    background-color: #ff9ebd;
+    display: block;
+    transform: translateX(-125px) translateY(-40px);
+}
+
+.tex_vide .col-2 {
+    position: relative;
+}
+
+.tex_vide {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_past {
+    margin-top: 24px;
+    margin-bottom: 66px;
+}
+
+.menu_qismi .swipe_down {
+    position: fixed;
+    z-index: 999;
+    cursor: pointer;
+    bottom: 50px;
+    width: 75px;
+    bottom: 50px;
+}
+
+/* ================================ statictics start */
+.statictics {
+    padding: 50px 0px 54px !important;
+    background: #fff5f8;
+}
+
+.statictics .col-2 h4 {
+    font-family: "bold";
+    font-size: 48px;
+    color: #e12457;
+}
+
+.statictics .col-2 p {
+    font-family: "light";
+    font-size: 13px;
+    color: #4d4d4d;
+
+}
+
+/* ================================ mars start */
+.mars {
+    margin: 86px 0 165px;
+}
+
+.mars .all_mars {
+    padding-bottom: 160px;
+    background: url(./img/Mars_line.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.mars .all_mars .all_mars_title h2 {
+    margin-bottom: 28px;
+    font-family: "bold";
+    font-size: 60px;
+    color: #e12457;
+}
+
+.mars .all_mars_main .what_mars h4 {
+    margin-bottom: 18px;
+    line-height: 24px;
+    color: #000;
+    font-size: 24px;
+    font-family: "bold";
+}
+
+.mars .all_mars_main .what_mars p {
+    font-family: "light";
+    line-height: 24px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.mars .realize {
+    padding-top: 120px;
+}
+
+.mars .realize .realize_title h2 {
+    font-family: "bold";
+    font-size: 60px;
+    color: #e12457;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.mars .realize .realize_main h6 {
+    font-family: "bold";
+}
+
+.mars .realize .realize_title p {
+    font-family: "light";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mars .realize .realize_main .error_p {
+    color: #e12457;
+}
+
+.mars .realize .realize_end {
+    display: flex;
+    margin-top: 67px;
+    background: url(./img/realize_end_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mars .realize .realize_end .realize_end_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 677px;
+    margin-left: 80px;
+}
+
+.mars .realize .realize_end .realize_end_main .let {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.mars .realize .realize_end .realize_end_main h6 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "bold";
+}
+
+.mars .realize .realize_end .realize_end_main p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "light";
+}
+
+.mars .realize .realize_end .realize_end_main p span {
+    font-family: "bold";
+}
+
+.mars .realize .realize_end .realize_end_main .let h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 24px;
+    font-family: "thin";
+    margin-top: 26px;
+}
+
+.mars .realize .realize_end .realize_end_main .let p {
+    position: relative;
+    margin-top: 15px;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: "light";
+}
+
+.mars .realize .realize_end .realize_end_main .let p::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.mars .realize .realize_end .realize_end_main .let button {
+    width: 199px;
+    height: 57px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: #d493bc 0px 0px 30px 19px;
+}
+
+.mars .realize .realize_end .raketa {
+    transform: translateX(27px) translateY(-27px);
+}
+
+/* =============== organi start */
+.organi {
+    padding-top: 110px;
+    padding-bottom: 144px;
+}
+
+.organi_title h2 {
+    color: #e12457;
+    font-size: 60px;
+    line-height: 24px;
+    font-family: "bold";
+    margin-bottom: 52px;
+}
+
+.organi .organi_main {
+    display: flex;
+}
+
+.organi .organi_main .organi_main_left {
+    margin-right: 82px
+}
+
+.organi .organi_main .organi_main_right h6 {
+    margin-top: 41px;
+    margin-bottom: 20px;
+    font-family: "bold";
+    line-height: 24px;
+    font-size: 24px;
+    color: #000;
+}
+
+.organi .organi_main .organi_main_right p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+    font-family: "light";
+    margin: 0;
+    padding: 0;
+    width: 931px;
+}
+
+.organi .organi_main .organi_main_right button {
+    height: 46px;
+    width: 160px;
+    border: 0;
+    background-color: #e12457;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* section */
+.star_bg {
+    background: url("./img/star_bg.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.star_bg .star_tex {
+    font-family: "bold";
+    font-size: 60px;
+    color: #fff;
+    margin: 110px 0px 64px;
+}
+
+.vidio_va_odam {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tex_h_col {
+    font-family: "bold";
+    color: white;
+    font-size: 16px;
+}
+
+.chav_illar i {
+    color: white;
+}
+
+.chav_illar .lef {
+    color: white;
+    padding-left: 28px;
+}
+
+.tt_h,
+.tt_h_iki {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.op {
+    opacity: .7;
+}
+
+.ota_div {
+    width: 22%;
+}
+
+.ik_i {
+    color: white;
+    opacity: .4;
+    padding-left: 24px;
+}
+
+.tex_h_col_opas {
+    color: white;
+
+    font-size: 16px;
+}
+
+.tex_h_col_opas {
+    opacity: .4;
+}
+
+.hov_bg_dv {
+    font-family: "bold";
+    color: white;
+    font-size: 24px;
+}
+
+.tex_div_hocv {
+    width: 66%;
+    margin-top: 83px;
+    padding-left: 6%;
+}
+
+.tex_div_hocv p {
+    color: white;
+}
+
+.tex_hlar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 146px;
+}
+
+/* ======================= footer start ===================== */
+footer {
+    background: url(./img/munu_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 124px 0px 50px;
+}
+
+footer h2 {
+    font-family: "bold";
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+footer form {
+    background: url(./img/Screenshot_2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 68px 72px 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer form p {
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 23px;
+    color: #fff;
+
+}
+
+footer form input {
+    padding-left: 9px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+
+}
+
+
+
+input::placeholder {
+    color: #fff;
+    font-size: 16px;
+}
+
+footer form button {
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 0px 25px 0px #fff;
+    font-size: 18px;
+    color: #c2529a;
+    padding: 20px;
+}
+
+footer .col-7 p {
+    font-family: "light";
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+footer .col-7 a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    display: block;
+}
+
+footer .col-12 a {
+    font-size: 14px;
+    color: #fff;
+}
+
+footer .col-12 .progs {
+    display: flex;
+    align-items: center;
+
+}
+
+footer .col-12 .progs p {
+    margin-right: 30px;
+
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+footer .col-12 .progs a {
+    margin-right: 10px;
+}
+
+footer .footer_end {
+    margin-top: 117px;
+}
+
+footer form input {
+    color: #fff;
+}
+
+.menu_qismi .swipe_down img{
+    margin: 0;
+}
+
+.tt_h_iki .tex_h_col_opas:hover,
+.tt_h_iki .tex_h_col_opas:hover+.ik_i {
+    opacity: 1;
+}
+
+.navbar>.container-fluid{
+    padding: 0;
+}
+
+
+/* ================== MEDIA START                    */
+
+@media (max-width: 1399px) {
+
+    .mars .all_mars .all_mars_title h2,
+    .mars .realize .realize_title h2,
+    .mars .realize .realize_end .realize_end_main .let h2,
+    .organi_title h2,
+    footer h2,
+    .star_bg .star_tex {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .video_info {
+        transform: translateX(631px) translateY(-190px);
+    }
+
+    .realize_right img {
+        width: 100%;
+    }
+
+    .organi_main {
+        overflow: hidden;
+    }
+
+    .mars .all_mars .all_mars_title h2,
+    .mars .realize .realize_title h2,
+    .mars .realize .realize_end .realize_end_main .let h2,
+    .organi_title h2,
+    footer h2,
+    .star_bg .star_tex {
+        font-size: 40px;
+    }
+
+    .mars .realize .realize_end .realize_end_main .let button {
+        transform: translateX(-30px);
+    }
+
+    .mars .realize .realize_end .realize_end_main .let p {
+        transform: translateX(-20px);
+    }
+
+    .statictics .row .col-2:nth-child(6) {
+        display: none;
+    }
+
+    .tt_h_iki .tex_h_col_opas,
+    .tt_h .tex_h_col {
+        font-size: 12px;
+    }
+
+    .tt_h_iki .tex_h_col_opas:hover,
+    .tt_h_iki .tex_h_col_opas:hover+.ik_i {
+        opacity: 1;
+    }
+
+    footer form {
+        padding: 23px 35px 27px;
+    }
+
+    footer form p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mars .realize .realize_end .realize_end_main .let button {
+        width: 108px;
+        height: 42px;
+        background-color: #fff;
+        border: 0;
+        border-radius: 50px;
+        box-shadow: #d493bc 0px 0px 30px 19px;
+        font-size: 12px;
+    }
+
+    .mars .realize .realize_end .realize_end_main .let p {
+        display: none;
+    }
+
+    .mars .realize .realize_end .realize_end_main .let h2 {
+        transform: translateY(-8px);
+    }
+
+    .mars .realize .realize_end .realize_end_main {
+        margin-left: 40px;
+    }
+
+    .realize_left p:nth-child(4) {
+        display: none;
+    }
+
+    .video_info {
+        display: none;
+    }
+
+    .vidio_va_img {
+        transform: translateX(-50px);
+    }
+
+    .statictics .row .col-2:nth-child(6),
+    .statictics .row .col-2:nth-child(5),
+    .statictics .row .col-2:nth-child(4) {
+        display: none;
+    }
+
+    .mars .all_mars .all_mars_title h2,
+    .mars .realize .realize_title h2,
+    .mars .realize .realize_end .realize_end_main .let h2,
+    .organi_title h2,
+    footer h2,
+    .star_bg .star_tex {
+        font-size: 30px;
+    }
+
+    .mars .all_mars_main .what_mars h4 {
+        font-size: 15px;
+    }
+
+    .tex_hlar .ota_div {
+        width: 30%;
+    }
+
+    .tex_div_hocv .hov_bg_dv {
+        font-size: 18px;
+    }
+
+    .hov_bg_dv p {
+        font-size: 12px;
+    }
+
+    .mars{
+        padding: 34px 0 35px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .menu_qismi .swipe_down {
+        padding: 0;
+        position: fixed;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu_qismi .swipe_down img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .bi_texx {
+        font-size: 107px;
+        margin: 0;
+    }
+
+    .vidio_va_img {
+        width: 316px !important;
+        transform: translateX(-25px);
+    }
+
+    .tex_div .harif {
+        width: 311px;
+    }
+
+    .tex_div .harif h4 {
+        font-size: 20px;
+    }
+
+    .mars .all_mars .all_mars_title h2,
+    .mars .realize .realize_title h2,
+    .mars .realize .realize_end .realize_end_main .let h2,
+    .organi_title h2,
+    footer h2,
+    .star_bg .star_tex {
+        font-size: 20px;
+    }
+
+    .mars .all_mars_main .what_mars h4{
+        margin: 0;
+    }
+
+    .mars .all_mars_main .what_mars p{
+        font-size: 12px;
+    }
+
+    .mars .realize .realize_end .realize_end_main {
+        margin-left: 25px;
+    }
+
+    .realize .realize_end{
+        flex-direction: column;
+    }
+
+    .mars .realize .realize_end .realize_end_main{
+        padding-bottom: 20px;
+        width: 476px;
+    }
+
+    .mars .realize .realize_main .error_p {
+        display: none;
+    }
+
+    .tex_hlar .ota_div{
+        width: 38%;
+    }
+
+    .tex_div_hocv{
+        padding-left: 15px;
+        margin-top: 40px;
+    }
+
+    .organi{
+        padding: 35px 0;
+    }
+
+    .organi .organi_main .organi_main_left{
+        margin-right: 25px;
+    }
+
+    footer .col-7 p{
+        margin-top: 40px;
+    }
+
+    footer .col-12 a{
+        display: none;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .mars .realize .realize_end .realize_end_main {
+        margin-left: 10px;
+        width: 270px;
+    }
+
+    .realize_end{
+        overflow: hidden;
+    }
+
+    .mars .realize .realize_end .raketa{
+        transform: none;
+    }
+
+    .tex_div .bi_texx{
+        font-size: 90px;
+    }
+
+    .harif{
+        width: 263px !important;
+        margin-top: 80px;
+    }
+
+    .harif h4{
+        font-size: 17px !important;
+    }
+
+    .vidio_va_img {
+        width: 261px !important;
+        transform: translateX(-55px);
+    }
+
+    .star_bg .star_tex {
+        margin: 80px 0 15px;
+    }
+
+    .tex_hlar .ota_div{
+        display: none;
+    }
+
+    .tex_div_hocv{
+        width: 95%;
+    }
+
+    .organi .organi_main .organi_main_left{
+        display: none;
+    }
+
+    .organi_main_right .organi_main_right_img img{
+        height: 145px;
+    }
+
+    .organi_title h2{
+        margin-bottom: 15px;
+    }
+
+    footer h2{
+        margin-bottom: 20px;
+    }
+
+    footer .col-7 p {
+        width: 300px;
+    }
+
+    .mars .realize .realize_end .realize_end_main h6{
+        margin: 20px 0;
+    }
+
+    .tex_div_hocv {
+        padding-left: 0;
+    }
+
+    .statictics{
+        display: none;
+    }
+
+    .menu_tex{
+        display: none;
+    }
+
+    .navbar>.container-fluid{
+        padding: 0;
+    }
+}
